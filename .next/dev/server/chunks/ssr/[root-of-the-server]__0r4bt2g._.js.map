@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/contadorsl/pages/index.jsx"],"sourcesContent":["import { useState } from \"react\"\r\n\r\nexport default function Home() {\r\n    function Contador() {\r\n        const [contador, setContador] = useState(0)\r\n        function adicionar() {\r\n            setContador(contador + 1)\r\n        }\r\n        return (\r\n            <div>\r\n                <button onClick={adicionar}>Adicionar</button>\r\n                <p></p>\r\n                <span>{contador}</span>\r\n            </div>\r\n        )\r\n    }\r\n    return (\r\n        <div>\r\n            <h1>Hello World</h1>\r\n            <h2>vamos contar?</h2>\r\n            <Contador />\r\n        </div>\r\n\r\n    )\r\n}"],"names":["Home","Contador","contador","setContador","adicionar","onClick"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACpB,SAASC;QACL,MAAM,CAACC,UAAUC,YAAY,GAAG,IAAA,+GAAQ,EAAC;QACzC,SAASC;YACLD,YAAYD,WAAW;QAC3B;QACA,qBACI,qKAAC;;8BACG,qKAAC;oBAAOG,SAASD;8BAAW;;;;;;8BAC5B,qKAAC;;;;;8BACD,qKAAC;8BAAMF;;;;;;;;;;;;IAGnB;IACA,qBACI,qKAAC;;0BACG,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BAAG;;;;;;0BACJ,qKAACD;;;;;;;;;;;AAIb"}}]
+}

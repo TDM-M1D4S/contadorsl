@@ -1,0 +1,5 @@
+{"timestamp":"00:00:04.662","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:05.475","source":"Server","level":"ERROR","message":"Functions are not valid as a React child. This may happen if you return Contador instead of <Contador /> from render. Or maybe you meant to call this function rather than return it."}
+{"timestamp":"00:00:06.229","source":"Browser","level":"ERROR","message":"Functions are not valid as a React child. This may happen if you return Contador instead of <Contador /> from render. Or maybe you meant to call this function rather than return it.\n  <span>{Contador}</span> "}
+{"timestamp":"00:00:06.230","source":"Server","level":"ERROR","message":"[browser] \"Functions are not valid as a React child. This may happen if you return Contador instead of <Contador /> from render. Or maybe you meant to call this function rather than return it.\\n  <span>{Contador}</span>\" \"\""}
+{"timestamp":"00:00:21.375","source":"Server","level":"LOG","message":"✓ Compiled in 85ms"}
